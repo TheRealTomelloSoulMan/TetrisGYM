@@ -7,10 +7,10 @@ game_palette:
 title_palette:
         .byte   $3F,$00
         .byte   $14 
-        .byte   $0F,$3C,$16,$1A   ; bg 0 - last 2 bytes for IBE
+        .byte   $0F,$07,$16,$1A   ; bg 0 - last 2 bytes for IBE
         .byte   $0F,$17,$27,$37   ; bg 1
         .byte   $0F,$30,MENU_HIGHLIGHT_COLOR,$00  ; bg 2
-        .byte   $0F,$22,$16,$28 ; bg 3 - last 2 bytes for RIA
+        .byte   $0F,$18,$16,$28 ; bg 3 - last 2 bytes for RIA
         .byte   $0F,$30,$29,$27 ; sprite 0
         .byte   $FF
 menu_palette:
