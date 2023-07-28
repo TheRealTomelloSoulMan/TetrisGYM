@@ -21,7 +21,8 @@ CNROM_CHR_LEGAL:
 .endif
 
         jsr bulkCopyToPpu
-        .addr wait_palette
+        ;.addr wait_palette
+        .addr title_palette
         jsr copyRleNametableToPpu
         .addr legal_nametable
 
